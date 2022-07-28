@@ -1,0 +1,11 @@
+.hero_text {
+  width: 496px;
+  display: grid;
+  margin-left: 200px;
+  margin-top: 234px;
+}
+
+.hero_text span {
+  color: black;
+  font-size: 42px;
+}
