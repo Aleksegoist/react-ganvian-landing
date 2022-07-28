@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 52px;
+}
+
+.header_menu {
+  display: flex;
+  gap: 80px;
+  margin-top: 54px;
+}
+
+.header_menu a {
+  color: #99b8af;
+  font-size: 18px;
+}
+
+.header_menu a:hover {
+  color: #b311ff;
+}

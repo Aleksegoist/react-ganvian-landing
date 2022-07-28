@@ -1,7 +1,12 @@
+import './App.css';
+import Navbar from './components/navbar/Navbar';
+import Right from './components/right/Right';
+
 function App() {
   return (
-    <div>
-      <h1>Hello AYDev!!!</h1>
+    <div className='container'>
+      <Navbar />
+      <Right />
     </div>
   );
 }
