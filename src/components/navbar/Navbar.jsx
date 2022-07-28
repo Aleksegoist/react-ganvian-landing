@@ -1,17 +1,17 @@
 import React from 'react';
-import './navbar.css';
+import styles from './Navbar.module.css';
 import Logo from '../../assets/Ganvian.png';
 
 const Navbar = () => {
   return (
     <>
       <header className='container'>
-        <div className='wrapper'>
+        <div className={styles.wrapper}>
           <div>
-            <img className='logo' src={Logo} alt='/' />
+            <img className={styles.logo} src={Logo} alt='/' />
           </div>
           <nav>
-            <ul className='header_menu'>
+            <ul className={styles.header_menu}>
               <li>
                 <a href='/'>Home</a>
               </li>

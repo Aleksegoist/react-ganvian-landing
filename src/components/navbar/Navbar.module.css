@@ -1,6 +1,6 @@
 .wrapper {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .logo {
@@ -13,17 +13,14 @@
   display: flex;
   gap: 80px;
   margin-top: 54px;
-  font: 120% system-ui;
-  text-align: center;
 }
 
-.header_menu a {
+ a {
   color: #99b8af;
   font-size: 18px;
 }
 
 a:hover {
   color: #b311ff;
-  /* font-weight: 600; */
   text-shadow: 0 0 0.74px #b311ff, 0 0 0.74px #b311ff;
 }

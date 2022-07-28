@@ -1,0 +1,26 @@
+.right {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.right_button {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  right: 97px;
+  top: 44px;
+}
+
+button {
+  width: 169px;
+  background: #b311ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+}
