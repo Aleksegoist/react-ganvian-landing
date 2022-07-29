@@ -13,7 +13,13 @@ const Navbar = () => {
             <img className={styles.logo} src={Logo} alt='/' />
           </div>
           <nav>
-            <ul className={styles.header_menu}>
+            <ul
+              className={
+                nav
+                  ? [styles.header_menu, styles.active].join(' ')
+                  : [styles.header_menu]
+              }
+            >
               <li>
                 <a href='/'>Home</a>
               </li>
@@ -28,6 +34,9 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
+          <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
+            {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+          </div>
         </div>
       </header>
     </>

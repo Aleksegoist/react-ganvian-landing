@@ -46,6 +46,10 @@ button {
   right: 202px;
 }
 
+.active {
+  left: 0;
+}
+
 @media screen and (max-width: 1380px) {
   .right {
     display: none;
