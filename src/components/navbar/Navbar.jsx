@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Navbar.module.css';
 import Logo from '../../assets/Ganvian.png';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
   return (
     <>
       <header className='container'>

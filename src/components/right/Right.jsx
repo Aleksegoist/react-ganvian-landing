@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Right.module.css';
 import Header_right from '../../assets/header_right.png';
 import People_right from '../../assets/people_right.png';

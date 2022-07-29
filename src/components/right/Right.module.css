@@ -45,3 +45,9 @@ button {
   top: 234px;
   right: 202px;
 }
+
+@media screen and (max-width: 1380px) {
+  .right {
+    display: none;
+  }
+}
