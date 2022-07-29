@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Navbar.module.css';
 import Logo from '../../assets/Ganvian.png';
 import { RiArrowDownSLine } from 'react-icons/ri';
+import Header_right from '../../assets/header_right.png';
 
 const Navbar = () => {
   return (
@@ -25,6 +26,10 @@ const Navbar = () => {
             <a href='/'>Technologies</a>
           </li>
         </ul>
+
+        <div className={styles.image}>
+          <img src={Header_right} alt='' />
+        </div>
 
         <ul className={styles.menu_right}>
           <li>

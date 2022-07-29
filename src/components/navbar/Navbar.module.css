@@ -26,11 +26,37 @@ nav {
 }
 
 .menu a:hover {
-  text-shadow: -0.45px -0.45px 0 #b311ff, 0.45px 0.45px #b311ff;
+  text-shadow: -0.35px -0.35px 0 #b311ff, 0.35px 0.35px #b311ff;
   color: #b311ff;
 }
 
 .menu_right {
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.menu_right a {
+  color: #b311ff;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.btn button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 15px;
+  padding: 9px 28px;
+  background: #b311ff;
+  margin-left: 30px;
+}
+
+.image {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
