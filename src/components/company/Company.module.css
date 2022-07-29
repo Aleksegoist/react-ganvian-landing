@@ -1,0 +1,156 @@
+.company {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  position: relative;
+}
+
+.title h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.title span {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.left_layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.company_text_image {
+  position: absolute;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  /* grid-template-columns: repeat(2, 1fr); */
+  padding-top: 108px;
+  gap: 150px;
+}
+
+.image_people img {
+  max-width: 380px;
+}
+
+.company_text {
+  max-width: 574px;
+}
+
+.company_text h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.company_text span {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.company_desc {
+  max-width: 509px;
+}
+
+.company_desc p {
+  color: #99b8af;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  line-height: 178%;
+}
+
+.company_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.company_btn button:nth-child(1) {
+  width: 230px;
+  height: 66px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 23px;
+  cursor: pointer;
+  border-radius: 15px;
+  text-decoration: underline 1px #fff;
+}
+
+.company_btn button:nth-child(2) {
+  background: transparent;
+  border: 2px solid #b311ff;
+  color: #b311ff;
+  text-decoration: underline 1px;
+  height: 66px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 18px 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .left_layer {
+    display: none;
+  }
+
+  .company_text_image {
+    margin: 20px;
+  }
+
+  .company_text_image img {
+    max-width: 270px;
+  }
+
+  .company {
+    margin-top: 100px;
+  }
+
+  .company_text_image {
+    gap: 50px;
+  }
+  .company_text h1 {
+    font-size: 28px;
+  }
+
+  .company_text span {
+    font-size: 28px;
+  }
+
+  .company_desc p {
+    font-size: 17px;
+  }
+
+  .company_btn {
+    gap: 15px;
+    margin: 20px;
+  }
+
+  .company_btn button:nth-child(1) {
+    width: 170px;
+    height: 66px;
+    font-size: 16px;
+    padding: 8px 8px;
+  }
+
+  .company_btn button:nth-child(2) {
+    width: 130px;
+    height: 66px;
+    font-size: 15px;
+    padding: 8px 8px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .image_people {
+    display: none;
+  }
+}
