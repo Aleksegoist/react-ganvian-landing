@@ -6,7 +6,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -23,7 +22,3 @@ a {
   text-decoration: none;
 }
 
-.container {
-  /* max-width: 90%; */
-  margin: auto;
-}
