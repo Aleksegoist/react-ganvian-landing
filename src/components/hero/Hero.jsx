@@ -10,6 +10,14 @@ const Hero = () => {
           innovation in <span style={{ color: '#B311FF' }}>software</span>
         </span>
         <span style={{ color: '#B311FF' }}>creation.</span>
+        <div className={styles.hero_desc}>
+          <span>We always seek the best way to help our </span>
+          <span>customers with good agility.</span>
+        </div>
+        <div className={styles.hero_btn}>
+          <button>Free Consultation</button>
+          <button>Reed More</button>
+        </div>
       </div>
     </>
   );
