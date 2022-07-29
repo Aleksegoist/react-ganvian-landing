@@ -1,0 +1,36 @@
+.navbar {
+  padding: 52px 97px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 50px; */
+  max-width: 1318px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #99b8af;
+  font-size: 18px;
+  font-weight: 500;
+  text-shadow: -0.25px -0.25px 0 transparent, 0.25px 0.25px transparent;
+}
+
+.menu a:hover {
+  text-shadow: -0.45px -0.45px 0 #b311ff, 0.45px 0.45px #b311ff;
+  color: #b311ff;
+}
+
+.menu_right {
+  display: flex;
+  align-items: center;
+}
