@@ -55,3 +55,25 @@ button {
     display: none;
   }
 }
+
+@media screen and (max-width: 1309px) {
+  .people_img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right_button {
+    right: 10px;
+    top: 50px;
+  }
+
+  button {
+    width: 110px;
+    font-size: 16px;
+  }
+
+  .lang {
+    margin-right: 5px;
+  }
+}

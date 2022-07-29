@@ -5,16 +5,15 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.hero_text}>
-        <span>A company focused on</span>
-        <span>
-          innovation in <span style={{ color: '#B311FF' }}>software</span>
-        </span>
-        <span style={{ color: '#B311FF' }}>creation.</span>
+        <h1>
+          A company focused on innovation in <span>software creation.</span>
+        </h1>
       </div>
 
       <div className={styles.hero_desc}>
-        <span>We always seek the best way to help our </span>
-        <span>customers with good agility.</span>
+        <p>
+          We always seek the best way to help our customers with good agility.
+        </p>
       </div>
 
       <div className={styles.hero_btn}>
