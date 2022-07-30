@@ -1,0 +1,25 @@
+.company {
+  width: 100%;
+  display: grid;
+}
+
+.image {
+  position: absolute;
+  left: 0;
+}
+
+.company img {
+  position: relative;
+}
+
+.people_image {
+  position: relative;
+}
+
+.company_text {
+  max-width: 1106px;
+  margin: 60px 200px;
+  display: grid;
+  grid-template-columns: 1fr 574px;
+  gap: 150px;
+}
