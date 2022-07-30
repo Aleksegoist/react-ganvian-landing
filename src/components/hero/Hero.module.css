@@ -1,5 +1,19 @@
 .hero {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  max-width: 1110px;
+  margin: 150px 200px;
+  display: grid;
+  grid-template-columns: 496px 1fr;
+  gap: 216px;
+}
+
+.hero h1 {
+  margin-bottom: 30px;
+}
+
+.hero p {
+  margin-bottom: 60px;
+}
+
+.hero img {
+  position: relative;
 }
