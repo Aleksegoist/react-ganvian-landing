@@ -2,6 +2,7 @@ import './App.css';
 import Company from './components/company/Company';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
+import Services from './components/services/Services';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Company />
+      <Services />
     </div>
   );
 }

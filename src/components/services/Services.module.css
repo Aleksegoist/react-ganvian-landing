@@ -1,0 +1,54 @@
+.services {
+  width: 100%;
+}
+
+.blocks {
+  max-width: 1113px;
+  display: flex;
+  justify-content: center;
+  margin: 60px auto 47px auto;
+  gap: 35px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 36px 56px;
+}
+
+.box {
+  width: 252px;
+  height: 252px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box p {
+  max-width: 140px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  /* padding: 156px 56px 36px 56px; */
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  background: #fff3e1;
+  border: none;
+  border-radius: 50%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle img {
+  width: 42px;
+  height: 42px;
+}
