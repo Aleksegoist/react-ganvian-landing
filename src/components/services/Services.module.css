@@ -2,6 +2,11 @@
   width: 100%;
 }
 
+.image {
+  position: absolute;
+  right: 63px;
+}
+
 .blocks {
   max-width: 1113px;
   display: flex;

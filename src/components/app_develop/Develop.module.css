@@ -1,0 +1,51 @@
+.develop {
+  width: 100%;
+  position: relative;
+  display: grid;
+}
+
+.image_left {
+  position: absolute;
+  left: 59px;
+  top: 247px;
+}
+
+.image_right {
+  position: absolute;
+  right: 0;
+}
+
+.develop_text {
+  max-width: 1112px;
+  display: grid;
+  grid-template-columns: 526px 1fr;
+  gap: 155px;
+  margin: 105px 200px 84px 200px;
+}
+
+.people_image {
+  position: relative;
+}
+
+.develop_text h1 {
+  max-width: 483px;
+  margin-bottom: 30px;
+}
+
+.develop_text p {
+  font-size: 22px;
+  margin-bottom: 80px;
+}
+
+.button button {
+  display: flex;
+  justify-content: start;
+  background: #b311ff;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 50px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
