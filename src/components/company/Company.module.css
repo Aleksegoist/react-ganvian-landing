@@ -18,8 +18,17 @@
 
 .company_text {
   max-width: 1106px;
-  margin: 60px 200px;
+  margin: 60px 200px 150px 200px;
   display: grid;
   grid-template-columns: 1fr 574px;
   gap: 150px;
+}
+
+.company_text h1 {
+  margin-bottom: 30px;
+}
+
+.company_text p {
+  max-width: 509px;
+  margin-bottom: 60px;
 }
