@@ -1,0 +1,25 @@
+.budget {
+  width: 100%;
+  position: relative;
+}
+
+.images_left_top {
+  position: absolute;
+  left: 51px;
+  top: 206px;
+}
+
+.images_left_bottom {
+  position: absolute;
+  left: 51px;
+  top: 631px;
+}
+
+.images_right {
+  position: absolute;
+  right: 42px;
+  top: 466px;
+}
+
+.budget h2 {
+}

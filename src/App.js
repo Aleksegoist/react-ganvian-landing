@@ -1,5 +1,6 @@
 import './App.css';
 import Develop from './components/app_develop/Develop';
+import Budget from './components/budget/Budget';
 import Clients from './components/clients/Clients';
 import Company from './components/company/Company';
 import Hero from './components/hero/Hero';
@@ -18,6 +19,7 @@ function App() {
       <Develop />
       <Landscape />
       <Clients />
+      <Budget />
     </div>
   );
 }
