@@ -3,6 +3,7 @@ import Develop from './components/app_develop/Develop';
 import Budget from './components/budget/Budget';
 import Clients from './components/clients/Clients';
 import Company from './components/company/Company';
+import Featured from './components/featured/Featured';
 import Hero from './components/hero/Hero';
 import Landscape from './components/landscape/Landscape';
 import Navbar from './components/navbar/Navbar';
@@ -20,6 +21,7 @@ function App() {
       <Landscape />
       <Clients />
       <Budget />
+      <Featured />
     </div>
   );
 }

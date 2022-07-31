@@ -12,7 +12,7 @@
 .images_left_bottom {
   position: absolute;
   left: 51px;
-  top: 631px;
+  top: 758px;
 }
 
 .images_right {
@@ -35,6 +35,7 @@
   display: flex;
   justify-content: space-between;
   gap: 55px;
+  margin-bottom: 150px;
 }
 
 .budget_text {

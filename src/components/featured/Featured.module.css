@@ -1,0 +1,82 @@
+.featured {
+  width: 100%;
+  position: relative;
+}
+
+.featured h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.featured_block {
+  width: 100%;
+  height: 224px;
+  background-color: #ffe5fe;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 0 auto;
+}
+
+.left_block {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  /* padding: 30px 0 30px 97px; */
+}
+
+.logo_name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.left_block h1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.left_block p {
+  font-size: 16px;
+  color: #99b8af;
+  font-weight: 400;
+}
+
+.right_block {
+  max-width: 868px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+input {
+  display: block;
+  width: 680px;
+  border: none;
+  border-radius: 12px;
+  color: #99b8af;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 21px 21px;
+}
+
+input::placeholder {
+  color: #99b8af;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.btn_send button {
+  background: #020706;
+  color: white;
+  padding: 21px 59px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+}
