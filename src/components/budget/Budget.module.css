@@ -22,4 +22,96 @@
 }
 
 .budget h2 {
+  margin-bottom: 60px;
+}
+
+.budget_block {
+  width: 1112px;
+  height: 650px;
+  background: linear-gradient(-225deg, #fdadfa, #9896f0);
+  margin: auto;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.budget_text {
+  width: 399px;
+  display: flex;
+  flex-direction: column;
+  margin: 104px 0 132px 53px;
+}
+
+.budget_text h1 {
+  margin-bottom: 21px;
+}
+
+.budget_text p {
+  margin-bottom: 60px;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.button button {
+  background: white;
+  color: #b311ff;
+  border: none;
+  border-radius: 15px;
+  padding: 18px 77px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form_email {
+  width: 542px;
+  display: flex;
+  flex-direction: column;
+  margin: 104px 63px 110px 0;
+  gap: 21px;
+}
+
+.input input {
+  display: block;
+  width: 542px;
+  border: none;
+  border-radius: 12px;
+  color: #99b8af;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 19px;
+}
+
+.input input::placeholder {
+  color: #99b8af;
+}
+
+.input input:focus {
+  outline: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.text textarea {
+  max-width: 542px;
+  border: none;
+  border-radius: 15px;
+  color: #99b8af;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px;
+}
+
+.text textarea::placeholder {
+  color: #99b8af;
+}
+
+.text textarea:focus {
+  outline: 0;
 }

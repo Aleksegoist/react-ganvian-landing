@@ -30,15 +30,27 @@ const Budget = () => {
             There are many variations of passages of Lorem Ipsum available, but
             the majority have
           </p>
-          <div className='btn'>
-            <button></button>
+          <div className={styles.button}>
+            <button>Submit</button>
           </div>
         </div>
         <div className={styles.form_email}>
-          <input type='text' />
-          <input type='text' />
-          <input type='text' />
-          <input type='text' />
+          <div className={styles.input}>
+            <input type='text' placeholder='Full Name' />
+          </div>
+          <div className={styles.input}>
+            <input type='email' placeholder='E-mail' />
+          </div>
+          <div className={styles.input}>
+            <input type='number' placeholder='Phone Number' />
+          </div>
+          <div className={styles.text}>
+            <textarea
+              cols={542}
+              rows={6}
+              placeholder='Project Description'
+            ></textarea>
+          </div>
         </div>
       </div>
     </div>
